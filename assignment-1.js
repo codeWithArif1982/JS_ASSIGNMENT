@@ -23,9 +23,9 @@ function multiplicationTable(num) {
  * Test the function with different input numbers 
  * to generate multiplication tables.
  */
-var randomNumber = Math.round((Math.random() * 100+1));
-multiplicationTable(randomNumber); //With random number
+// var randomNumber = Math.round((Math.random() * 100+1));
+// multiplicationTable(randomNumber); //With random number
 
-// var givenNumber = 7;
-// multiplicationTable(givenNumber); //With given number
+var givenNumber = 7;
+multiplicationTable(givenNumber); //With given number
 
