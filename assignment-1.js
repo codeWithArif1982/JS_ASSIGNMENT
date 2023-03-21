@@ -1,4 +1,10 @@
 /**
+ * @assignment_no : 01
+ * @author : "Md Arif Hossain Chowdhuary"
+ * @date : March 22, 2023
+ * @
+ */
+/**
  * Create a JavaScript function called "multiplicationTable"
  * that takes a single argument "num" (an integer) as input.
  * */
