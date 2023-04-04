@@ -23,7 +23,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: var(--grey);
+  background-color: let(--grey);
 }
 
 p {
@@ -58,7 +58,7 @@ section {
   /* width: 40rem; */
   background-color: #ffffd9;
   padding: 2rem;
-  color: var(--white);
+  color: let(--white);
   box-shadow: 0px 10px 20px 20px #e0e0e0;
 }
 

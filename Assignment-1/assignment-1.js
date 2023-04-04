@@ -10,13 +10,13 @@
  * */
 function multiplicationTable(num) {
   /*Inside the function, create a for loop that iterates from 1 to 10.*/
-  var i;
-  var sum = 0;
+  let i;
+  let sum = 0;
   for (i = 1; i <= 10; i++) {
     /** Inside the loop, multiply the current iteration number
      * by the input "num" to generate the product.
      **/
-    var product = num * i;
+    let product = num * i;
     /** 
    * Log the product to the console 
    * in the format "num x iteration = product".
@@ -29,9 +29,9 @@ function multiplicationTable(num) {
  * Test the function with different input numbers 
  * to generate multiplication tables.
  */
-// var randomNumber = Math.round((Math.random() * 100+1));
+// let randomNumber = Math.round((Math.random() * 100+1));
 // multiplicationTable(randomNumber); //With random number
 
-var givenNumber = 7;
+let givenNumber = 7;
 multiplicationTable(givenNumber); //With given number
 
